@@ -10,7 +10,7 @@ This project contains two variations of a simple Python calculator program. Both
 
 # Variations
 
-Calculator with Nexted While Loops
+Calculator with Nested While Loops
 
 - In this variation, the calculated uses a nested while loop to keep the program running while the user performs calculations.
 
