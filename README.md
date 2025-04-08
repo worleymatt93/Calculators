@@ -10,10 +10,10 @@ This project contains two variations of a simple Python calculator program. Both
 
 # Variations
 
-1. Calculator with Nexted While Loops
+Calculator with Nexted While Loops
 
-In this variation, the calculated uses a nested while loop to keep the program running while the user performs calculations.
+- In this variation, the calculated uses a nested while loop to keep the program running while the user performs calculations.
 
-2. Calculator with Recursion
+Calculator with Recursion
 
-In this variation, the calculator uses a recursive function to restart the calculation process.
+- In this variation, the calculator uses a recursive function to restart the calculation process.
