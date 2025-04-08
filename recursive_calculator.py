@@ -30,7 +30,7 @@ def calculator():
     actively_calculating = True
     first_number = float(input("What's the first number?: "))
 
-    # Inner loop: keep calculating with the current result
+    # Loop: keep calculating with the current result
     while actively_calculating:
         # Display available operations
         for keys, value in operations.items():
@@ -50,9 +50,10 @@ def calculator():
         if input(f"Type 'y' to continue calculating with {result}, or type 'n' to start a new calculation: ") == 'y':
             first_number = result  # Update the starting number for next round
         else:
-            actively_calculating = False  # Exit inner loop and start fresh
-            print("\n" * 20)
-            calculator()
+            actively_calculating = False  # Exit loop and start fresh
+            print("\n" * 20)  # Print some blank lines for separation
+            calculator()  # Recursively call the calculator function to restart the calculation process
 
 
+# Start the calculator program
 calculator()
